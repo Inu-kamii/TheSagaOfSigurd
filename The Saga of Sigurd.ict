@@ -11,24 +11,1475 @@ libs:
   keyboard: {}
   keyboard.polyfill: {}
   sound.howler: {}
-textures: []
+  gamepad: {}
+  vkeys: {}
+textures:
+  - lastmod: 1702143898015
+    type: texture
+    name: DreamBG
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 10600
+    imgHeight: 1430
+    width: 10600
+    height: 1430
+    offx: 0
+    offy: 0
+    origname: ifcMMg2HJmPHtQz.png
+    shape: rect
+    left: 0
+    right: 10600
+    top: 0
+    bottom: 1430
+    uid: fcMMg2HJmPHtQz
+    padding: 1
+    isBlank: false
+    group: Nj2mQK6gLhHNH7
+    source: 'D:\Univer\Gaydev 3 (diploma)\dark_background.png'
+    tiled: true
+  - lastmod: 1702145144978
+    type: texture
+    name: MHPlaceHolder
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 128
+    imgHeight: 128
+    width: 128
+    height: 128
+    offx: 0
+    offy: 0
+    origname: izc6ftPcB9Pj9LF.png
+    shape: rect
+    left: 0
+    right: 128
+    top: 0
+    bottom: 128
+    uid: zc6ftPcB9Pj9LF
+    padding: 1
+    isBlank: false
+    group: !<tag:yaml.org,2002:js/undefined> ''
+  - lastmod: 1702145187057
+    type: texture
+    name: Mara
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 128
+    imgHeight: 128
+    width: 128
+    height: 128
+    offx: 0
+    offy: 0
+    origname: i7P6g6w96PpBLKn.png
+    shape: rect
+    left: 0
+    right: 128
+    top: 0
+    bottom: 128
+    uid: 7P6g6w96PpBLKn
+    padding: 1
+    isBlank: false
+    group: !<tag:yaml.org,2002:js/undefined> ''
+  - lastmod: 1702145361615
+    type: texture
+    name: MainMenuBG
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 1024
+    imgHeight: 489
+    width: 1024
+    height: 489
+    offx: 0
+    offy: 0
+    origname: iJ49RDHQd4WzCnT.jpg
+    shape: rect
+    left: 0
+    right: 1024
+    top: 0
+    bottom: 489
+    uid: J49RDHQd4WzCnT
+    padding: 1
+    isBlank: false
+    group: Nj2mQK6gLhHNH7
+    source: >-
+      D:\Univer\Gaydev 3
+      (diploma)\Animation\1675234708_foni-club-p-fon-drevnerusskogo-goroda-14.jpg
+    tiled: true
+  - lastmod: 1702145597506
+    type: texture
+    name: New Game Button
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 200
+    imgHeight: 56
+    width: 200
+    height: 56
+    offx: 0
+    offy: 0
+    origname: i45pnmbC4mM8Lbn.png
+    shape: rect
+    left: 0
+    right: 200
+    top: 0
+    bottom: 56
+    uid: 45pnmbC4mM8Lbn
+    padding: 1
+    isBlank: false
+    group: RzHTwpfj7gwfFD
+  - lastmod: 1702145608844
+    type: texture
+    name: Load Game Button
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 200
+    imgHeight: 56
+    width: 200
+    height: 56
+    offx: 0
+    offy: 0
+    origname: iDcwKRkLNjkzF7q.png
+    shape: rect
+    left: 0
+    right: 200
+    top: 0
+    bottom: 56
+    uid: DcwKRkLNjkzF7q
+    padding: 1
+    isBlank: false
+    group: RzHTwpfj7gwfFD
+  - lastmod: 1702145617304
+    type: texture
+    name: Settings Button
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 200
+    imgHeight: 56
+    width: 200
+    height: 56
+    offx: 0
+    offy: 0
+    origname: iFhDHtN4rkCBT8j.png
+    shape: rect
+    left: 0
+    right: 200
+    top: 0
+    bottom: 56
+    uid: FhDHtN4rkCBT8j
+    padding: 1
+    isBlank: false
+    group: RzHTwpfj7gwfFD
+  - lastmod: 1702145624969
+    type: texture
+    name: Exit Button
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 200
+    imgHeight: 56
+    width: 200
+    height: 56
+    offx: 0
+    offy: 0
+    origname: iPLgRM3cMWd7BCh.png
+    shape: rect
+    left: 0
+    right: 200
+    top: 0
+    bottom: 56
+    uid: PLgRM3cMWd7BCh
+    padding: 1
+    isBlank: false
+    group: RzHTwpfj7gwfFD
+  - lastmod: 1702146299469
+    type: texture
+    name: Earth
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 64
+    imgHeight: 64
+    width: 64
+    height: 64
+    offx: 0
+    offy: 0
+    origname: i64WRGpQ2dFWQpD.png
+    shape: rect
+    left: 0
+    right: 64
+    top: 0
+    bottom: 64
+    uid: 64WRGpQ2dFWQpD
+    padding: 1
+    isBlank: false
+    group: !<tag:yaml.org,2002:js/undefined> ''
 skeletons: []
-templates: []
+templates:
+  - type: template
+    name: GG
+    depth: 0
+    texture: zc6ftPcB9Pj9LF
+    playAnimationOnStart: false
+    loopAnimation: true
+    animationFPS: 30
+    visible: true
+    events:
+      - eventKey: OnStep
+        lib: core
+        code: >
+          // this.speed = 4 * ct.delta; // Максимальная скорость движения по
+          горизонтали
+
+
+          if (ct.actions.MoveLeft.down) {
+              // Если клавиша A или стрелка влево зажата, то перемещаемся налево
+              this.hspd = -this.speed;
+          } else if (ct.actions.MoveRight.down) {
+              // Если клавиша D или стрелка вправо зажата, то перемещаемся направо
+              this.hspd = this.speed; 
+          } else {
+              // Если ничего не зажато — не двигаемся
+              this.hspd = 0;
+          }
+
+
+          // if (ct.place.occupied(this, this.x, this.y + 1, 'Solid')) {
+
+          //     if (ct.actions.Jump.down) {
+
+          //         this.vspd = this.jumpSpeed;
+
+          //     } else {
+
+          //         this.vspd = 0;
+
+          //     }
+
+          // } else {
+
+          //     this.vspd += this.gravity * ct.delta;
+
+          // }
+
+
+          this.move();
+        arguments: {}
+      - eventKey: OnCreate
+        code: |
+          this.jumpSpeed = -9;
+          this.gravity = 0.5;
+
+          this.hspd = 0; // Горизонтальная скорость
+          this.vspd = 0; // Вертикальная скорость
+        arguments: {}
+        lib: core
+    extends:
+      cgroup: Solid
+    lastmod: 1702147378722
+    uid: 2d8jh2pWdtCFbm
+  - type: template
+    name: Mara
+    depth: 0
+    texture: 7P6g6w96PpBLKn
+    playAnimationOnStart: false
+    loopAnimation: true
+    animationFPS: 30
+    visible: true
+    events:
+      - eventKey: OnStep
+        lib: core
+        code: this.move();
+        arguments: {}
+    extends: {}
+    lastmod: 1702145206120
+    uid: 5FrQjkFgk35L1K
+  - type: template
+    name: Exit Button
+    depth: 0
+    texture: PLgRM3cMWd7BCh
+    playAnimationOnStart: false
+    loopAnimation: true
+    animationFPS: 30
+    visible: true
+    events:
+      - eventKey: OnStep
+        lib: core
+        code: this.move();
+        arguments: {}
+      - eventKey: OnPointerClick
+        code: |-
+
+          ct.pixiApp.destroy();
+        arguments: {}
+        lib: core
+    extends: {}
+    lastmod: 1702146034257
+    uid: gjzK65BcMhDNHF
+    group: PLkk5gHRMD5ph4
+  - type: template
+    name: Load Game Button
+    depth: 0
+    texture: DcwKRkLNjkzF7q
+    playAnimationOnStart: false
+    loopAnimation: true
+    animationFPS: 30
+    visible: true
+    events:
+      - eventKey: OnStep
+        lib: core
+        code: this.move();
+        arguments: {}
+      - eventKey: OnPointerClick
+        code: ct.rooms.switch('Dream')
+        arguments: {}
+        lib: core
+    extends: {}
+    lastmod: 1702146146440
+    uid: 3w17M1KzTdLG4W
+    group: PLkk5gHRMD5ph4
+  - type: template
+    name: New Game Button
+    depth: 0
+    texture: 45pnmbC4mM8Lbn
+    playAnimationOnStart: false
+    loopAnimation: true
+    animationFPS: 30
+    visible: true
+    events:
+      - eventKey: OnStep
+        lib: core
+        code: this.move();
+        arguments: {}
+      - eventKey: OnPointerClick
+        code: ct.rooms.switch('Dream')
+        arguments: {}
+        lib: core
+    extends: {}
+    lastmod: 1702146140104
+    uid: kDwT72bgTGcBnR
+    group: PLkk5gHRMD5ph4
+  - type: template
+    name: Settings Button
+    depth: 0
+    texture: FhDHtN4rkCBT8j
+    playAnimationOnStart: false
+    loopAnimation: true
+    animationFPS: 30
+    visible: true
+    events:
+      - eventKey: OnStep
+        lib: core
+        code: this.move();
+        arguments: {}
+      - eventKey: OnPointerClick
+        code: console.log("Settings")
+        arguments: {}
+        lib: core
+    extends: {}
+    lastmod: 1702146162652
+    uid: 2k8WDpfp3bChh9
+    group: PLkk5gHRMD5ph4
+  - type: template
+    name: Earth
+    depth: 0
+    texture: 64WRGpQ2dFWQpD
+    playAnimationOnStart: false
+    loopAnimation: true
+    animationFPS: 30
+    visible: true
+    events:
+      - eventKey: OnStep
+        lib: core
+        code: this.move();
+        arguments: {}
+    extends:
+      alpha: 0
+      cgroup: Solid
+    lastmod: 1702147475134
+    uid: p5fbhmgQFmgzBC
 sounds: []
 styles: []
 fonts: []
-rooms: []
-actions: []
+rooms:
+  - type: room
+    oncreate: ''
+    onstep: ''
+    ondraw: ''
+    onleave: ''
+    gridX: 32
+    gridY: 32
+    diagonalGrid: false
+    simulate: true
+    width: 1280
+    height: 720
+    restrictCamera: false
+    restrictMaxX: 1280
+    restrictMinX: 1280
+    restrictMaxY: 720
+    restrictMinY: 720
+    isUi: false
+    name: Dream
+    backgroundColor: '#000000'
+    follow: -1
+    backgrounds:
+      - depth: -5
+        texture: fcMMg2HJmPHtQz
+        shiftX: 0
+        shiftY: 0
+        parallaxX: 1
+        parallaxY: 1
+        movementX: 0
+        movementY: 0
+        scaleX: 0.5
+        scaleY: 0.5
+        repeat: no-repeat
+    copies:
+      - x: 386.6863908
+        'y': 416.57314557
+        opacity: 1
+        tint: 16777215
+        scale:
+          x: 0.05
+          'y': 0.05
+        rotation: 0
+        uid: 2d8jh2pWdtCFbm
+        exts: {}
+        customProperties: {}
+      - x: 256
+        'y': 448
+        opacity: 1
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: 2d8jh2pWdtCFbm
+        exts: {}
+        customProperties: {}
+      - x: 928
+        'y': 256
+        opacity: 1
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: 5FrQjkFgk35L1K
+        exts: {}
+        customProperties: {}
+      - x: 1152
+        'y': 480
+        opacity: 1
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: 5FrQjkFgk35L1K
+        exts: {}
+        customProperties: {}
+      - x: 256
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 320
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 384
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 448
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 512
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 512
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 544
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 608
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 640
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 704
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 736
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 768
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 800
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 832
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 864
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 896
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 928
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 960
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 992
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 960
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 960
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 960
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 992
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1024
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1056
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1088
+        'y': 640
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1120
+        'y': 640
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1088
+        'y': 640
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1088
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1056
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1024
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1024
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1024
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1056
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1088
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1120
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1152
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1184
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1216
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1248
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1280
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1312
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1312
+        'y': 640
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1280
+        'y': 640
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1248
+        'y': 640
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1216
+        'y': 672
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1184
+        'y': 672
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1152
+        'y': 672
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1120
+        'y': 672
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1088
+        'y': 672
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1056
+        'y': 672
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 1024
+        'y': 672
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 992
+        'y': 672
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 0
+        'y': 544
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 32
+        'y': 544
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 64
+        'y': 544
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 96
+        'y': 544
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 128
+        'y': 544
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 160
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 224
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 256
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 288
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 256
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 224
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 192
+        'y': 544
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 192
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 160
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 192
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 224
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 256
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 288
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 320
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 352
+        'y': 608
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+      - x: 352
+        'y': 576
+        opacity: 0
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: p5fbhmgQFmgzBC
+        exts: {}
+        customProperties: {}
+    tiles: []
+    extends: {}
+    lastmod: 1702147380240
+    events: []
+    uid: ppbc64WQkRzj79
+  - type: room
+    oncreate: ''
+    onstep: ''
+    ondraw: ''
+    onleave: ''
+    gridX: 32
+    gridY: 32
+    diagonalGrid: false
+    simulate: true
+    width: 1280
+    height: 720
+    restrictCamera: false
+    restrictMaxX: 1280
+    restrictMinX: 1280
+    restrictMaxY: 720
+    restrictMinY: 720
+    isUi: false
+    name: Main Menu
+    backgroundColor: '#000000'
+    follow: -1
+    backgrounds:
+      - depth: -1
+        texture: J49RDHQd4WzCnT
+        shiftX: 0
+        shiftY: 0
+        parallaxX: 1
+        parallaxY: 1
+        movementX: 0
+        movementY: 0
+        scaleX: 1.25
+        scaleY: 1.47
+        repeat: no-repeat
+    copies:
+      - x: 960
+        'y': 640
+        opacity: 1
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: gjzK65BcMhDNHF
+        exts: {}
+        customProperties: {}
+      - x: 960
+        'y': 576
+        opacity: 1
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: 2k8WDpfp3bChh9
+        exts: {}
+        customProperties: {}
+      - x: 960
+        'y': 512
+        opacity: 1
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: 3w17M1KzTdLG4W
+        exts: {}
+        customProperties: {}
+      - x: 960
+        'y': 448
+        opacity: 1
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
+        uid: kDwT72bgTGcBnR
+        exts: {}
+        customProperties: {}
+    tiles: []
+    extends: {}
+    lastmod: 1702146221313
+    events: []
+    uid: 76wn8HwQMd28cH
+actions:
+  - name: Attack
+    methods:
+      - code: pointer.Primary
+  - name: MoveRight
+    methods:
+      - code: keyboard.KeyD
+      - code: keyboard.ArrowRight
+  - name: MoveLeft
+    methods:
+      - code: keyboard.KeyA
+      - code: keyboard.ArrowLeft
+  - name: MoveTop
+    methods:
+      - code: keyboard.ArrowUp
+      - code: keyboard.KeyW
+  - name: MoveDown
+    methods:
+      - code: keyboard.KeyS
+      - code: keyboard.ArrowDown
 emitterTandems: []
 scripts: []
-startroom: -1
+startroom: ppbc64WQkRzj79
 contentTypes: []
 groups:
   fonts: []
-  textures: []
+  textures:
+    - name: Backgrounds
+      icon: airplay
+      colorClass: warning
+      uid: Nj2mQK6gLhHNH7
+    - name: Buttons
+      icon: copy
+      colorClass: success
+      uid: RzHTwpfj7gwfFD
   styles: []
   rooms: []
-  templates: []
+  templates:
+    - name: Buttons
+      icon: folder
+      colorClass: error
+      uid: PLkk5gHRMD5ph4
   sounds: []
   emitterTandems: []
 settings:
@@ -65,3 +1516,4 @@ settings:
     forceSmoothSplashScreen: false
     hideLoadingLogo: false
   fps: 30
+palette: []
